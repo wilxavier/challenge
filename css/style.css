@@ -1,52 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
 
-body {
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: black;
-    color: aliceblue;
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
 }
 
-.titulo-destaque {
-    color: blue;
-}
-
-.apresentacao{
-    margin: 10%;
+main {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 80px;
 }
 
-.apresentacao_conteudo {
-    width: 615px;
-
+.areaTexto {
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
 }
 
-.apresentacao_conteudo_titulo {
-    font-size: 36px;
-}
+::placeholder { color: #0a3871;}
+    .areaTexto:focus{
+        outline: none;
+    }
 
-.apresentacao_conteudo_texto{
-    font-size: 24px;
-}
-
-.apresentacao_links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.apresentacao_links_link{
-    background-color: #22d4fd;
-    width: 280 px;
-    text-align: center;
-    border-radius: 16px;
-    font-size: 24px;
-    padding: 21px 0 ;
-    text-decoration: none;
-    color: black;
-    font-family: 'Courier New', Courier, sans-serif;
+.mensagem {
+    background: white;
+    background-image: url(/img/boneco.png);
+    background-repeat: no-repeat;
 }
