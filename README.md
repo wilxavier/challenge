@@ -2,7 +2,7 @@
 
 **Descrição:**
 
-Este projeto implementa um algoritmo de criptografia simples para fins educacionais e de demonstração. Ele utiliza a linguagem javascript para cifrar e decifrar texto usando um algoritmo refatorado de forma aleatória.
+Este projeto implementa um algoritmo de criptografia simples para fins educacionais e de demonstração. Ele utiliza a linguagem javascript para cifrar e decifrar texto usando um algoritmo refatorado de forma estática.
 Vale salientar que foi um projeto desenvolvido por William Xavier para a conlusão do curso inicial da Alura para programadores Front-End.
 
 **Funcionalidades:**
